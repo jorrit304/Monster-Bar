@@ -354,7 +354,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 289565126}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1266354356}
+        m_MethodName: InstantiatePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &289565126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,11 +487,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1266354356}
         m_MethodName: InstantiatePanel
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 3941917735735448707, guid: 63360d87cd777164285e18999ef5e7ef,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1109,6 +1119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1251745214}
+  PanelPrefab: {fileID: 3941917735735448707, guid: 63360d87cd777164285e18999ef5e7ef,
+    type: 3}
 --- !u!4 &1266354357
 Transform:
   m_ObjectHideFlags: 0
@@ -1204,7 +1216,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1416281990}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1266354356}
+        m_MethodName: InstantiatePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1416281990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1431,7 +1454,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1794940297}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1266354356}
+        m_MethodName: InstantiatePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1794940297
 MonoBehaviour:
   m_ObjectHideFlags: 0
